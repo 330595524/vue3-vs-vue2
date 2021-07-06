@@ -7,5 +7,7 @@ explorations
 TODOs.md
 *.log
 
+.idea
+.vscode
 */node_modules
 
