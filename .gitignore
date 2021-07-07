@@ -8,6 +8,7 @@ TODOs.md
 *.log
 
 .idea
+.idea/*.xml
 .vscode
 */node_modules
 
