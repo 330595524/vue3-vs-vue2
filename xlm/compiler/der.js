@@ -116,62 +116,9 @@ function traverse(ast, context) {
       }else{
         ast.static = true
       }
-  }
- /* switch (ast.type){
-    case 'root':
-      context.helpers.add('createBlock')
-    case 'element':
-        // props 在element里面
-      // div 或者别的html元素
-      // 需要做 1. vue的语法标记出来， 2. class  props event 这几个如果是静态的，我们标记出来，后面方便vdom diff时候略过
-      ast.children.forEach(node=>{
-        traverse(node,context)
-      })
-      ast.flag = {props:false,class:false,event:false} // 默认都是静态的
-      ast.props = ast.props.map(prop=>{
-        const {key,val} = prop
-        if(key[0] == '@'){
-        //  事件
-          ast.flag.event = true; // 后续做节点对比的时候，需要对事件进行diff。先remote，再 addEvenetListioner
-          return  {
-            key: 'on'+key[1].toUpperCase() + key.slice(2),  // @click => onClick
-            val
-          }
-        }
-
-        if(key[0] === ':'){
-        //  动态属性
-          ast.flag.props = true
-          return  {
-            key: key.slice(1),
-            val
-          }
-        }
-
-        if(key.startsWith === 'v-'){
-        //  后期可以自行扩展
-        }
-
-        return {...prop, static:true}
-
-      })
-      break;
-
-    case 'text':
-  //    文本，需要判断{{}} 动态的，没有这个就是静态的
-      let re = /\{\{(.*)\}\}/g
-      if (re.test(ast.val))
-      {
-        ast.static = false
-        context.helpers.add('toDisplayString');
-        ast.val = ast.val.replace(re,function (s0,s1) {
-          return s1
-        })
-      }else {
-        ast.static = true // 标记为true，后续vue进行dom diff的时候直接略过
-      }
-  }*/
+ }
 }
+
 
 function tokenizer(input) {
   let tokens = [];
