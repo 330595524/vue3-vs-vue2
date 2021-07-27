@@ -1,9 +1,8 @@
 const fs = require('fs')
 const path = require('path')
 const Koa = require('koa')
-const compilerSfc = require('@vue/compiler-sfc') // .vue
+const compilerSfc = require('@vue/compiler-sfc') // .vue  单文件解析
 const compilerDom = require('@vue/compiler-dom') // 模板
-
 const app = new Koa()
 function rewriteImport(content){
   return content.replace(/from ['|"]([^'"]+)['|"]/g, function(s0,s1){

@@ -1,0 +1,54 @@
+<script>
+  var exports = {};
+  //  让字符串运行起来
+  // eval 、 new function
+  // 保护变量
+  // eval('var a = 123;exports.default = function (a,b) { return a + b; };')
+  /*(function (exports, code ) {
+    eval(code)
+})(exports,'var a = 123;exports.default = function (a,b) { return a + b; };')
+console.log(exports.default(2,4));
+console.log(a);
+*/
+/*
+// 模拟require
+  function require(file) {
+    (function (exports, code) {
+      eval(code);
+    })(
+      exports,
+      "var a = 123;exports.default = function (a,b) { return a + b; };"
+    );
+
+    return exports;
+  }
+
+  const add = require("add.js").default;
+  console.log(add(2, 4));
+  */
+
+  // TODO  index 入口怎么弄
+  (function (list) {
+    function require(file) {
+      (function (exports, code) {
+        eval(code);
+      })(
+        exports,
+        list[file]
+      );
+
+      return exports;
+    }
+    require('index.js');
+  })({
+    "index.js": `
+    const add = require('add.js').default;
+    console.log(add(12, 4)); 
+    `,
+    "add.js": `var a = 123;exports.default = function (a,b) { return a + b; };`,
+  });
+
+//   收集依赖
+//  ES6转成ES5 ， eval 只能解析es5
+//  替换require 和   exports
+</script>
