@@ -1,10 +1,8 @@
-;
-const path = require('path')
+const path = require("path");
 
-console.log(require)
+console.log(require);
 
-
-const requireComponment = require('./', true, "/.vue$/");
+const requireComponment = require("./", true, "/.vue$/");
 
 console.log(requireComponment, "requireComponment");
 const install = (Vue) => {

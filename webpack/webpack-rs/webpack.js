@@ -11,5 +11,19 @@ const babel = require('@babel/core');
  */
 function getModuleInfo(file) {
     const body = fs.readFileSync(file, 'utf-8');
-    
+    //  转换ast语法树
+    console.log(body);
+    const ast = parser.parse(body,{
+        sourceType: 'module'
+    })
+
+    // 依赖收集 import xxx
+    const deps = {}
+    traverse(ast,{
+        // visitor
+        ImportDeclaration({node}){
+
+        }
+    })
 }
+getModuleInfo('. /')

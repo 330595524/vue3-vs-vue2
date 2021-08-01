@@ -3,10 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import vueMsg from "./plugins/index.js";
+// router  动态引入
+// import vueMsg from "./plugins/index.js";
 
 Vue.config.productionTip = false;
-Vue.use(vueMsg);
+// Vue.use(vueMsg);
 
 new Vue({
   router,
