@@ -1,29 +1,26 @@
-// 响应式库
+// 发布订阅
+// 临时存储
 let currentEffect = null;
 
 class Dep {
-  // 收集依赖
   constructor(val) {
-    this.effects = new Set(); // vue3使用的WeakMap
+    this.effects = new Set();
     this._val = val;
   }
-
   get value() {
     return this._val;
   }
-
-  set value(newVal) {
-    this._val = newVal;
+  set value(newValue) {
+    this._val = newValue;
     this.notice();
   }
-
+  // 收集依赖
   depend() {
     if (currentEffect) {
       this.effects.add(currentEffect);
     }
   }
-
-  // 触发依赖
+  // 通知
   notice() {
     this.effects.forEach((effect) => {
       effect();
@@ -31,35 +28,28 @@ class Dep {
   }
 }
 
-export function effectWatch(effect) {
-  // 收集依赖
+function effectWatch(effect) {
   currentEffect = effect;
   effect();
   currentEffect = null;
 }
 
-// ref 很像
-/*const dep = new Dep(10);
-
-let b;
-effectWatch(() => {
-  b = dep.value + 10;
-  console.log(b);
-});
-dep.value = 20;*/
-
-const targetMap = new Map();
-// {
-//   "{name:123}" : {name: new Dep()}
-// }
+// let dep = new Dep(10);
+// let b;
+// effectWatch(() => {
+//   b = dep.value + 10;
+//   console.log(b);
+// });
+// dep.value = 20;
+let targetMap = new Map();
 
 function getDep(target, key) {
   let depMap = targetMap.get(target);
+
   if (!depMap) {
     depMap = new Map();
     targetMap.set(target, depMap);
   }
-
   let dep = depMap.get(key);
   if (!dep) {
     dep = new Dep();
@@ -69,29 +59,30 @@ function getDep(target, key) {
   return dep;
 }
 
-export function reactive(raw) {
+function reactive(raw) {
   return new Proxy(raw, {
     get(target, key) {
-      // key -dep
-      // dep 在那存储
-      const dep = getDep(target, key);
+      let dep = getDep(target, key);
       dep.depend();
       return Reflect.get(target, key);
     },
     set(target, key, value) {
-      const dep = getDep(target, key);
-      const result = Reflect.set(target, key, value);
+      let dep = getDep(target, key);
+      let result = Reflect.set(target, key, value);
       dep.notice();
       return result;
     },
   });
 }
 
-// const user = reactive({
-//   age: 12,
-//   name: 333,
-// });
-// user.age;
+const user = reactive({ age: 12 });
+let b;
+effectWatch(() => {
+  console.log('reactive');
+  b = user.age;
+  console.log(b);
+});
+user.age = 30;
 
 // let double;
 // effectWatch(() => {

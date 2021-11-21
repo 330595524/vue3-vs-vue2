@@ -41,7 +41,7 @@ export function shallowRef(value?: unknown) {
   return createRef(value, true)
 }
 
-function crea teRef(rawValue: unknown, shallow = false) {
+function createRef(rawValue: unknown, shallow = false) {
   if (isRef(rawValue)) {
     return rawValue
   }

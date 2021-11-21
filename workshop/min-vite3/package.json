@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@vue/compiler-dom": "^3.2.22",
+    "@vue/compiler-sfc": "^3.2.22",
+    "@vue/server-renderer": "^3.2.22",
+    "glob": "^7.2.0",
+    "koa": "^2.13.4",
+    "marked": "^4.0.4",
+    "socket.io": "^4.4.0",
+    "vue": "^3.0.0-beta.14",
+    "watch": "^1.0.2"
+  },
+  "name": "vite3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "vite": "^2.6.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
