@@ -216,7 +216,7 @@ function generate(ast) {
 
 // super tiny comiler
 
-function comiler(template) {
+function compiler(template) {
   let ast = parse(template)
   transform(ast)
   // ll(ast)
@@ -233,7 +233,7 @@ let templateStr = `<div id="app">
 
 //class、 md 、 unit test
 
-comiler(templateStr)
+compiler(templateStr)
 
 function ll(data) {
   console.log(JSON.stringify(data,null,2));

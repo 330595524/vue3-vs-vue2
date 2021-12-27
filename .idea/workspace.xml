@@ -121,8 +121,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf0706f-fd0a-40ef-a8fe-f0b53c4904e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xlm/face/flex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myxlm/studyAlgorithm/a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/min-webpack/dist.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/min-webpack/dist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xlm/compiler/der.js" beforeDir="false" afterPath="$PROJECT_DIR$/xlm/compiler/der.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +136,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -146,8 +149,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -166,6 +171,7 @@
       <workItem from="1625532807956" duration="6072000" />
       <workItem from="1625545947143" duration="3645000" />
       <workItem from="1625632754945" duration="2654000" />
+      <workItem from="1629161902562" duration="518000" />
     </task>
     <servers />
   </component>
@@ -204,7 +210,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/xlm/compiler/der.js</url>
           <line>211</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
