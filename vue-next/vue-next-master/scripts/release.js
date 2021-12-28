@@ -14,7 +14,8 @@ const skipBuild = args.skipBuild
 const packages = fs
   .readdirSync(path.resolve(__dirname, '../packages'))
   .filter(p => !p.endsWith('.ts') && !p.startsWith('.'))
-
+	
+	console.log(packages,'packagespackagespackages');
 const skippedPackages = []
 
 const versionIncrements = [
@@ -35,6 +36,7 @@ const dryRun = (bin, args, opts = {}) =>
   console.log(chalk.blue(`[dryrun] ${bin} ${args.join(' ')}`), opts)
 const runIfNotDry = isDryRun ? dryRun : run
 const getPkgRoot = pkg => path.resolve(__dirname, '../packages/' + pkg)
+console.log(getPkgRoot('vue'),'getPkgRoot');
 const step = msg => console.log(chalk.cyan(msg))
 
 async function main() {
