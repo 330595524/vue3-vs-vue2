@@ -1,0 +1,13 @@
+.txt{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 多行 省略 */
+.txt2{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    box-
+
+}

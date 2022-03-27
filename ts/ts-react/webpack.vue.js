@@ -1,16 +1,25 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const  {VueLoaderPlugin} = require('vue-loader')
+
 module.exports = {
   entry:{
-    index: './src/ReactHell.tsx'
+    index: './src/main.ts'
   },
   mode: "development",
   module:{
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        loader: 'ts-loader',
+        options:{
+          appendTsSuffixTo:[/\.vue$/]
+        },
         exclude: /node_modules/
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
       }
     ]
   },
@@ -24,7 +33,8 @@ module.exports = {
   plugins:[
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname,'template.html')
-    })
+    }),
+    new VueLoaderPlugin()
   ],
   devServer:{
     static: {

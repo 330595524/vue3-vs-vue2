@@ -11,9 +11,14 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: 'ts-loader',
+        loader: 'babel-loader',
         options:{
-          appendTsSuffixTo:[/\.vue$/]
+          presets:[
+            '@babel/preset-env',
+            'babel-preset-typescript-vue3',
+            '@babel/preset-typescript'
+          ],
+          // appendTsSuffixTo:[/\.vue$/]
         },
         exclude: /node_modules/
       },

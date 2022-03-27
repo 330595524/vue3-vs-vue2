@@ -6,6 +6,8 @@
   "scripts": {
     "start": "webpack",
     "start:react": "webpack serve --config webpack.react.js",
+    "start:vue": "webpack serve --config webpack.vue.js",
+    "start:vue-babel": "webpack serve --config webpack.vue.withbabel.js",
     "start:react-babel": "webpack serve --config webpack.react.withbabel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,15 +21,19 @@
     "@babel/preset-typescript": "^7.16.7",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "@vue/compiler-sfc": "^3.2.31",
     "babel-loader": "^8.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.5",
+    "vue": "^3.2.29",
+    "vue-loader": "^17.0.0",
     "webpack": "^5.69.1"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
+    "babel-preset-typescript-vue3": "^2.0.16",
     "html-webpack-plugin": "^5.5.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
