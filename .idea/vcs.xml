@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mini-vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mini-vue-cur/mini-vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/skedo/skedo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-next/0628/vue3-app-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/workshop/vue3-play-plane-kkb/vue3-play-plane" vcs="Git" />
   </component>
 </project>
