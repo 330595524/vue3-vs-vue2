@@ -1,3 +1,4 @@
+console.log('00002222222222');
 class A {
   constructor() {
     this.test = 'constructor';
