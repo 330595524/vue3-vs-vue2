@@ -54,7 +54,7 @@ MyPromise.all = function (promises) {
             const promise = promises[i];
             promise.then((res)=>{
                 results.push(res)
-                if (result.length ===promises.length) {
+                if (results.length ===promises.length) {
                     resolve(results)
                 }
             }).catch(reject)
