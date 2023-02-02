@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var arr = [{
+					id: '213',
+					isShow: true
+				},
+				{
+					id: '213',
+					isShow: true
+				},
+				{
+					id: '213',
+					isShow: true,
+					subIdList: ['222', '333', '5555', '6666']
+				},
+			]
+
+			var showArr = arr.map((item) => {
+				if(item.subIdList && item.subIdList.length > 0) {
+					return item.subIdList
+				} else {
+					return item.id
+				}
+			})
+			console.log(showArr)
+		</script>
+	</body>
+
+</html>

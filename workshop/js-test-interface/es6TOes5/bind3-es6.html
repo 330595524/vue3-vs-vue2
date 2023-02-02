@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function foo(c, d) {
+				this.b = 100
+				console.log(this.a)
+				console.log(this.b)
+				console.log(c)
+				console.log(d)
+			}
+
+			Function.prototype.es6Bind = function(context, ...rest) {
+				if(typeof this !== 'function') throw new TypeError('invalid invoked!');
+				var self = this;
+				return function F(...args) {
+					if(this instanceof F) {
+						return new self(...rest, ...args)
+					}
+					return self.apply(context, rest.concat(args))
+				}
+			}
+
+			var func = foo.es6Bind({
+				a: 1
+			}, '1st');
+			func('2nd'); // 1 100 1st 2nd
+			func.call({
+				a: 2
+			}, '3rd'); // 1 100 1st 3rd
+			new func('4th'); //undefined 100 1st 4th
+			
+		
+		</script>
+	</body>
+
+</html>

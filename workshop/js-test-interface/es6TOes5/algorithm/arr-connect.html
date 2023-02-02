@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var arr = [[1, 2], [0, 3, 5], [-1, 4]];
+				arr = arr.reduce((a, b) => {
+					console.log(a)
+					console.log(b)
+					return a.concat(b)
+					
+				}, []).sort((a, b) => a - b);
+
+				console.log(arr)
+
+		
+		</script>
+	</body>
+</html>

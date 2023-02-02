@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	        <script type="text/javascript" charset="UTF-8">
+                
+                // 要转换的数组
+                var array = [1,2,3,4,5,6,7,6,5,4,3,2];
+                
+                // 利用Object的对象中key的唯一性，得到一个新的Object
+                function toObject(array) {
+                    var obj = {};
+                    for(var index = 0; index < array.length; index++) {
+                        obj[array[index]] =  1;
+                    }
+                    return obj;                    
+                }
+                
+                // 把Object转换成数组
+                function toArray(obj) {
+                    var arr = [];
+                    for(var attr in obj) {
+                    	
+                        if(obj.hasOwnProperty(attr)) {
+                            arr.push(attr);
+                        }
+                    }
+                    return arr;
+                }
+                
+                console.log(toObject(array))
+                alert(toArray(toObject(array)));
+        </script>
+
+</html>

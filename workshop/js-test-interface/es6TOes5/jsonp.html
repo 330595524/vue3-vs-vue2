@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100px;
+				height: 100px;
+				background: red;
+			}
+			
+			html {
+				margin-top: 400px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--<script type="text/javascript" src="http://mobile.ant.design/components/menu/demo.js">
+			
+			
+		</script>-->
+		<div class="box"></div>
+
+		<script type="text/javascript">
+			var str1 = "abctestctesqk1test23";
+			var str2 = "test";
+
+			function countSubstr(str, substr) {
+				var reg = new RegExp(substr, "g");
+				console.log(str.match(reg))
+				return str.match(reg) ? str.match(reg).length : 0; //若match返回不为null，则结果为true，输出match返回的数组(["test","test"])的长度
+			}
+			console.log(countSubstr(str1, str2)); //输出2
+		</script>
+	</body>
+
+</html>

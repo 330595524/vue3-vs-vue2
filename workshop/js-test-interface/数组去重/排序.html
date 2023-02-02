@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    width: 400px;
+    margin: 100px auto;
+}
+input[type="text"]{
+    display: block;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+}
+.sortbtn{
+    display: block;
+    width: 200px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.sortbtn:hover{
+    display: block;
+    background-color: black;
+    color: #ffffff;
+}
+label{
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+		</style>
+	</head>
+	<body>
+		 <!--主要页面结构-->
+    <div class="container">
+        <input type="text" name="number" id="number" placeholder="Please enter 10 numbers(don't leave space)" />
+        <a href="javascript:void()" class="sortbtn" id="resultBtn">Sort</a>
+        <label class="title">After Sorted:</label>
+
+        <!--以下三个label分别显示冒泡，插入，快速排序的结果-->
+        <label class="result" for="bubblesort"></label>
+        <label class="result" for="insertsort"></label>
+        <label class="result" for="quicksort"></label>
+    </div>
+    <!--end-->
+	</body>
+	<script type="text/javascript">
+		window.onload = function(){
+    var btn = document.getElementById("resultBtn");            //结果输出按钮
+    var inputnum = document.getElementById("number");        //数字输入框
+    var resultlbl =document.getElementsByTagName("label");    //结果显示的label 
+    var i,j,temp;
+
+    //冒泡排序
+    var bubble = function(arr){
+        for(i=0;i<9;i++){
+            for(j=0;j<9-i;j++){
+                if(arr[j] > arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    //插入排序
+    var insersort = function(arr){
+        for(i=1;i<10;i++){
+            temp = arr[i];
+            j = i;
+            while(j > 0 && arr[j-1] > temp){
+                arr[j] = arr[j-1];
+                j--;
+            }
+            arr[j] = temp;
+        }
+        return arr;
+    }
+
+    //快速排序
+    var quicksort = function(arr){
+        var basenum,basenumIndex;
+        var left = [];
+        var right = [];
+
+        if(arr.length <= 1){
+            return arr;
+        }
+        //基准数的位置
+        basenumIndex = Math.floor(arr.length/2);
+        basenum = arr.splice(basenumIndex,1)[0];
+        for(i=0;i<arr.length;i++){
+            if(arr[i] < basenum){
+                left.push(arr[i]);
+            }
+            else{
+                right.push(arr[i]);
+            }
+        }
+        //递归调用
+        return quicksort(left).concat([basenum],quicksort(right));
+    }
+
+    //判断输入的值类型是否为数字
+    function isNum(num){
+       var reNum =/^[0-9]+$/;
+       return (reNum.test(num));
+    }
+
+    //按钮点击事件
+    btn.onclick = function(){
+        //判断输入的值的类型和长度以及是否为空
+        if(!isNum(inputnum.value) || inputnum.value == "" || inputnum.value.length > 10 || inputnum.value.length < 10){
+            resultlbl[0].innerHTML = "Your format is wrong![Must Be 10 numbers]";
+            resultlbl[0].style.color = "red";
+        }
+        else{
+            resultlbl[0].innerHTML = "After Sorted:";
+            resultlbl[0].style.color = "black";
+            var inputstream = inputnum.value.toString();    //将输入的内容转换为字符串
+            var data = inputstream.split("");                //将转换的字符串分割，相当于转化为数组
+            
+            //结果输出
+            resultlbl[1].innerHTML = "BubbleSort:" + "<br/>" + bubble(data);
+            resultlbl[2].innerHTML = "InsertSort:" + "<br/>" + insersort(data);
+            resultlbl[3].innerHTML = "QuickSort:" + "<br/>" + quicksort(data);
+        }
+    }
+}
+	</script>
+</html>

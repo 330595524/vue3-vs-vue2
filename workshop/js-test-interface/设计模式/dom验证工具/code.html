@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom验证工具</title>
+</head>
+
+<body>
+    <script>
+        // 工程模式
+        // 初始化 dom绑定时，（验证队列，开启验证） 消息提示模块
+        // 
+        function t(dom, infodom) {
+            return new t.init(dom, infodom)
+        }
+
+        t.init = function (dom, infodom) {
+            this.dom = dom;
+            this.infodom = infodom
+            this.testArr = []
+            this.dom.onblur = function () {
+                this.begin(this.dom.value)
+            }
+        }
+
+        // 这样写可读性比较差，
+        //  新建策略对象 ，从策略对象取值
+        t.init.prototype.add = function (fn) {
+            if (typeof fn === 'string') {
+                var catorObj = {
+                    isPhone:function(){},
+                    isNumber:function(){},
+                    isMail:function(){},
+                }
+                this.testArr.push(catorObj[fn])
+
+                // if (fn === 'isPhone') {
+                //     this.testArr.push(function () {
+
+                //     })
+                // } else if (fn === 'isMail') {
+
+                // }
+            } else {
+                this.testArr.push(fn)
+            }
+        }
+        // return {result:true,message:'xxx'}
+        t.init.prototype.begin = function (value) {
+            while(this.testArr.length){
+                let result = this.testArr.shift()(value)
+                if(!result){
+                    this.sendInfo(result.message)
+                }
+            }
+        }
+        t.init.prototype.sendInfo = function (mes) {
+            
+            this.infodom.infodom = mes;
+        }
+
+        // t(input1,infodom1).add('isPhone').add('isPhone')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

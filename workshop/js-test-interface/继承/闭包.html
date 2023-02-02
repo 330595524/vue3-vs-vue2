@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function outer() {　　　　
+				var i = 1;　　 //2. 外层函数返回内层函数对象到外部
+				return function() {　　　　　　
+					console.log(i++);　　　　
+				}　　
+			}　　 //3. 调用外层函数获得内层函数对象
+			　　
+			var getNum = outer();　　 //getNum:function(){ console.log(i++); }
+			　　
+			getNum(); //1
+			getNum(); //2
+			i = 110;　　
+			k = 110123;　　
+			getNum(); //3
+			getNum(); //4¬
+			　
+			console.log(i);　　
+			console.log(k);
+		</script>
+	</body>
+
+</html>

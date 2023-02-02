@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>观察者模式</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			class Observer {
+				constructor(fn) {
+					this.update = fn
+				}
+			}
+			class Subject {
+				constructor() {
+					this.observers = []
+				}
+				addObserver(observer) {
+					this.observers.push(observer)
+				}
+				removeObserver(observer) {
+					const delIndex = this.observers.indexOf(observer)
+					this.observers.splice(delIndex, 1)
+				}
+				notify() {
+					this.observers.forEach(observer => {
+						observer.update()
+					})
+				}
+			}
+
+			var subject = new Subject()
+			var ob1 = new Observer(function() {
+				console.log('ob1 callback run')
+			})
+			subject.addObserver(ob1)
+			var ob2 = new Observer(function() {
+				console.log('ob2 callback run')
+			})
+			subject.addObserver(ob2)
+			subject.notify()
+		</script>
+	</body>
+
+</html>

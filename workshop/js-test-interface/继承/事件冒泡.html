@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<ul id="ul">
+			<li id="li">1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			
+			window.onload=function(){
+				var parent = document.getElementById('ul');
+				var childer = document.getElementById('li');
+				parent.addEventListener('click',function(e){
+					console.log('ul--parent')
+					console.log(e)
+					console.log(this)
+					
+					
+				},false)
+				
+				childer.addEventListener('click',function(){
+					console.log('li--childer')
+					console.log(this)
+				},false)
+				
+				
+			}
+			
+			
+		</script>
+	</body>
+</html>

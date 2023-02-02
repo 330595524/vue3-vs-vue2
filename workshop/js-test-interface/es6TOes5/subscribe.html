@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>发布\订阅</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			class EventBus {
+				constructor() {
+					this.events = Object.create(null)
+				}
+				on(event, fn) {
+					this.events.event = this.events.event || []
+					this.events.event.push(fn)
+				}
+				off(event, fn) {
+					const index = (this.events.event || []).indexOf(fn)
+					if(index < -1) {
+						return
+					} else {
+						this.events.event.splice(index, 1)
+					}
+				}
+				fire(event) {
+					this.events.event.forEach(fn => fn())
+				}
+			}
+			var bus = new EventBus()
+			bus.on('onclick', function() {
+				console.log('click1 fire')
+			})
+			bus.on('onclick', fn = function() {
+				console.log('click2 fire')
+			})
+			bus.fire('onclick')
+		</script>
+	</body>
+
+</html>

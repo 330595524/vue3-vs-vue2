@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			 var sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+			 console.log(sleep)
+			 
+			 sleep(1000).then(() => { // simulate server l'atency
+        if (['john', 'paul', 'george', 'ringo'].includes('ringo')) {
+            throw { username: 'That username is taken' };    //该用户名已被使用
+        }
+    });
+		</script>
+	</body>
+</html>

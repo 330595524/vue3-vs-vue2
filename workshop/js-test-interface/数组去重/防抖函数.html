@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="btn">
+        12312312
+    </div>
+
+   
+</body>
+<script>
+    function debounce(func, wait = 500, immediate = true) {
+      let timer = null
+      return function anonymous(... params) {
+            console.log(123123)
+        // 第一点击 没有设置过任何定时器 timer就要为 null
+        let now = immediate && !timer
+        clearTimeout(timer)
+        timer = setTimeout(_ => {
+          // 在下一个500ms 执行func之前，将timer = null
+          //（因为clearInterval只能在系统内清除定时器，但timer还有值）
+          // 为了确保后续每一次执行都和最初结果一样，赋值为null
+          // 也可以通过 timer 是否 为 null 是否有定时器
+          timer = !immediate ? func.call(this, ...params) : null
+        }, wait)
+        now ? func.call(this, ...params) : null
+    
+      }
+    }
+    
+    function func() {
+      console. log('ok')
+    }
+    var btn = document.getElementById('btn')
+    btn. onclick = debounce(func, 500)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </script>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>数组中第二大的数字</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			 var arr =[10,2,4,5,1,9,23,55,23,54];
+			 function findSendMax(arr) {
+			 	var len = arr.length;
+			 	var  max = arr[0];
+			 	var secendMax = null;
+			 	
+			 		
+			 		for (var j=0;j<len;j++) {
+				 		if(arr[j]>max){
+				 			secendMax = max;
+				 			max = arr[j];
+				 		}else{
+				 			if(arr[j]>secendMax){
+				 				secendMax = arr[j];
+				 			}
+				 		}
+				 		
+				 	}
+			 	
+			 	console.log('数组中第一大的是：',max)
+			 	console.log('数组中第二大的是：',secendMax)
+			 	
+			 	
+			 	
+			 }
+			 findSendMax(arr)
+			 
+			 function getCamelCase(str) {
+    var arr = str.split('');  // 每一个字符组成数组
+    str = arr.map(function ( item ){
+        if( item.toUpperCase() === item ){
+            return '-' + item.toLowerCase();
+        }else{
+            return item;
+        }
+    }).join( '' );
+    return str;
+ 
+}
+    console.log(getCamelCase("xiaoShuoWangXiao"))
+			 function alertHandle() {
+			 	sessionStorage.setItem("key11111","22222222222");   
+			 	alert('12312313')
+			 }
+		window.location.href='https://smartoffice-pre.sf-idaohang.com:81?callback=22222222222' + alertHandle() 
+			 
+		</script>
+		
+	
+		<script type="text/javascript"></script>
+	</body>
+</html>

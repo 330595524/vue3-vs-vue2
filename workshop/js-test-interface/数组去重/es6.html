@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			var arr = [];
+for (let i = 0; i < 10; i++) {
+  arr[i] = function () {
+    console.log(i);
+  }
+}
+arr[5]() //5,a[5]输出f(){console.log(i);},后面加个括号代表执行f()
+
+var funcs = [];
+
+function show(i) {
+  return function () {
+    console.log(i)
+  }
+}
+
+for (var i = 0; i < 10; i++) {
+  funcs.push( function(i){
+  	return function () {
+    console.log(i)
+  }
+  }(i)
+  )
+}
+funcs.forEach(function (func) {
+  func(); //依次输出0-9
+})
+
+const set = new Set([1,2,3,4,4]);
+console.log(set)
+console.log([...set] )// [1,2,3,4]
+console.log(Array.from(new Set([2,3,3,5,6]))); //[2,3,5,6]、
+
+let arr2 = [1,2,3];
+let flag = arr2.every(item=>item==3);
+console.log(flag)
+console.log(arr2.includes(3)); //es7
+
+let s = Symbol(); 
+let q = Symbol();
+
+console.log(s === q); 
+
+		</script>
+	</body>
+</html>

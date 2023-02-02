@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function getParamer(name) {
+				var reg = new RegExp("(^|\\?|&)" + name + "=([^&]*)(\\s|&|$)", "i");
+				if(reg.test(window.location.href)) return decodeURI(RegExp.$2.replace(/\+/g, " "));
+				return "";
+			}
+			var burl = getParamer('msg');
+			var aurl = getParamer('phone');
+			
+			console.log(aurl)
+			console.log(burl)
+			
+		</script>
+	</body>
+
+</html>

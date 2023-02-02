@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<ul>
+			<li>12</li>
+			<li>123</li>
+			<li>333</li>
+			<li>344</li>
+			<li>55</li>
+			<li>666</li>
+			<li>77</li>
+			<li>888</li>
+			<li>999</li>
+			<li>1010</li>
+		</ul>
+		<script type="text/javascript">
+				var  counter = 10;
+		function add () {
+			var  counter = 0;
+			return function () {
+				counter+=1;
+				alert(counter)
+			}
+		}
+		
+		var s = add();
+		
+//		s()// 1
+//		s()// 2
+//		s()// 3
+		
+		
+		
+		function fn () {
+			var num = 223;
+			var fn1 = function () {
+				console.log(num)
+			}
+			num++;
+			return fn1;
+		}
+		
+//		var fn2 = fn()
+		
+//		fn2()//224
+//		fn2()//224
+//		fn2()//224
+		
+//		用途:闭包解决索引值问题
+		
+		oLi = document.getElementsByTagName("li");
+		
+		for (var i = 0; i < oLi.length; i++) {			
+			/*oLi[i].onclick = function (index) {
+				return function () {
+					console.log(index)//					
+				}
+			}(i)*/
+			
+			(
+				function (j) {
+					oLi[j].onclick = function () {
+						console.log(j)
+					}
+				}
+			)(i)
+			
+		}
+		
+//		私有成员的存在
+//		var  aaa = (function () {
+//			var a =1 ;
+//			function bbb () {
+//				a++;
+//				console.log(a)
+//			};
+//			function ccc () {
+//				a++;
+//				console.log(a)
+//			};
+//			return {//json结构
+//				b:bbb,
+//				c:ccc
+//			}
+//		})()
+		
+//		aaa.b()//2
+//		aaa.c()//3
+//		aaa.b()//4
+//		aaa.c()//5
+		
+		
+		
+//		function aaa(a){      
+//		      var b = 5;      
+//		      function bbb(){
+//		           a++;
+//		           b++;
+////		           debugger   //1:断点调试    2：打断点
+//		         alert(a);
+//		         alert(b);
+//		      }
+//		      return bbb;
+//		  }
+//		
+//		 var ccc = aaa(2);
+//		
+//		 ccc();
+//		 ccc();
+ 
+//		var count = (function(){
+//		    var a = 0;
+//		    function add(){
+//		        a++;
+//		        return a;
+//		    }
+//		
+//		    return add;
+//		
+//		})()
+//		
+//		count();
+//		count();
+//		
+//		var nowcount = count();
+//		
+//		alert(nowcount);
+ 
+//		在实际开发中，闭包主要是用来封装变量，收敛权限    变量的管理方案
+		function isFirstLoad(){
+            var list=[];
+            return function(option){
+                if(list.indexOf(option)>=0){ //检测是否存在于现有数组中，有则说明已存在
+                    console.log('已存在')
+                }else{
+                    list.push(option);
+                    console.log('首次传入'); //没有则返回true,并把这次的数据录入进去
+                }
+                console.log(list)
+                return list;
+            }
+        }
+ 
+		var ifl=isFirstLoad();
+		var a = ifl("zhangsan"); 
+		var b = ifl("lisi");
+		var c = ifl("zhangsan");
+		console.log(a);
+		console.log(b);
+//		外界想访问list变量，只能通过我定义的函数isFirstLoad来进行访问，
+//		想访问list的外界只提供了isFirstLoad这一个接口。至于怎么操作list，
+//		已经定义好了，外界能做的就只是使用函数，然后传几个不同的参数
+		
+		var val=function(){
+	        var that=this;
+	        var variable={};
+	        variable.varity=1;
+	        var returnVal={};
+	
+	        this.isString=function(str){
+	             try {
+	                if (typeof str !== "string") {
+	                    throw "TypeErr";
+	                    
+	                }else{
+	                    return true;
+	                }
+	            } catch (e) {
+	                if (e == "TypeErr") {
+	                    return false;
+	                }
+	            }
+	        }
+			//读
+	        returnVal.getter=function(str){
+	            var isStr=that.isString(str);
+	            if(isStr){
+	                return variable[str];
+	            }else{
+	                console.error("input type must string!!!!!");
+	            }
+	           
+	        }
+			//写
+	        returnVal.setter=function(key,value){
+	            var isStr=that.isString(key);
+	            if(isStr){
+	                if(variable[key]==undefined){
+	                    eval(variable[key]);
+	                }
+	                variable[key]=value;
+	            }else{
+	                console.error("input type must string!!!!!");
+	            }
+	        }
+	
+	        return returnVal;
+	    }
+		
+		var val= val();//初始化方法
+	    console.log(val.getter("varity"));//  1
+	    val.setter("va222rity",3);//不存在重新添加并赋值
+	    console.log(val.getter("va222rity"));  // 3
+//		闭包的一个实际的应用   不会发生误操作(读写已经分离）
+		</script>
+	</body>
+</html>

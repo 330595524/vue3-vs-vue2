@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function Parent (){
+				this.name = 'Parent';
+				this.play = [1,2,3];
+				this.say = function(){
+					console.log('say----parent')
+				}
+			}
+			function Child (){
+				Parent.call(this);
+				this.type = 'child'
+			}
+			Child.prototype = Object.create(Parent.prototype);  //__proto
+			Child.prototype.constructor = Child;
+			var v7 = new Child();
+			var v8 = new Child();
+			v7.play.push(4);
+			console.log(v7)
+			console.log(v8)
+			console.log(v7.constructor)
+			console.log(v7 instanceof Child,v7 instanceof Parent)
+			
+		</script>
+	</body>
+</html>

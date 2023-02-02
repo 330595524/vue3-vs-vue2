@@ -28,3 +28,13 @@ let obj = {
 let kk = kkkb.myBind(obj);
 kk();
 // console.log(kk.name);
+
+
+Function.prototype.myBind2 = function (ctx, ...args) {
+  const fn = this;
+  if(typeof fn !== 'function') {throw new TypeError("类型错误")}
+  if (!ctx) ctx = window
+  return function (...otherArgs) {
+      fn.apply(ctx, [...args, ...otherArgs])
+  }
+}

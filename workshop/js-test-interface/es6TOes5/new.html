@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+//				一、js中new一个对象的过程
+		//	　　首先了解new做了什么，使用new关键字调用函数（new ClassA(…)）的具体步骤：
+		//	　　1、创建一个新对象：
+		//	　　var obj = {};
+		//	　　2、设置新对象的constructor属性为构造函数的名称，设置新对象的__proto__属性指向构造函数的prototype对象；
+		//	　　obj.__proto__ = ClassA.prototype;
+		//	　　3、使用新对象调用函数，函数中的this被指向新实例对象：
+		//	　　ClassA.call(obj);　　//{}.构造函数()
+		//	　　4、将初始化完毕的新对象地址，保存到等号左边的变量中
+		
+			//		
+			//1.创建一个空对象
+			//2.链接到原型
+			//3.绑定this值
+			//4.返回新对象
+		
+		function  handerFn () {
+			this.name = '小明';
+			console.log('我是根模板')
+		}
+//			function myNew (fn){
+//				var o = new Object(fn);
+//				if(instanceof o =='object'){
+//					return o
+//				}else{
+//					
+//				}
+//				return o;
+//				
+//			}
+			function new1 (fn) {
+				let  o = {'__proto__':fn.prototype}
+				fn.apply(o,arguments);
+				return o;
+			}
+			var new1 = new1(handerFn);
+			console.log(new1);
+			function new2(fn) {
+				let obj = new Object();
+				let constructor1 = [].shift.call(arguments);
+				obj.__proto__ = constructor1.prototype;
+				var result  = constructor1.apply(obj,arguments);
+				return typeof result =='object'?result:obj;
+			}
+			var new2 = new2(handerFn);
+			console.log(new2);
+
+			function new3(fn) {
+				let obj = Object.create(fn);
+				let result = fn.apply(obj);
+				if (typeof result ==='object') {
+					return result
+				} else {
+					return obj;
+				}
+
+			}
+			var new3 = new3(handerFn);
+			console.log(new3);
+			
+			
+			
+			
+		</script>
+	</body>
+</html>

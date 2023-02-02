@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>相同id</title>
+    <style>
+        #op{
+            background: red;
+        }
+
+        .red {
+    color: red
+}
+
+.blue {
+    color: blue
+}
+    </style>
+</head>
+<body>
+    <div id="op">131222</div>
+    <div id="op">55555555555555555</div>
+
+    <div class="red blue">123</div>
+<div class="blue red">123</div>
+    <script>
+
+        var om = document.getElementById('op');
+        console.log(om)
+
+
+    </script>
+</body>
+</html>

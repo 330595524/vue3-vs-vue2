@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var str = 'xiaoshuo-ss-sfff-fe';
+			
+			function getCom (str) {
+				var arr = str.split('-');
+				console.log(arr);
+				var newArr = arr.map((item,index)=>{
+					if(index == 0){
+						return item
+					}else{
+						var c =  item.charAt(0).toUpperCase()+item.slice(1)
+						return c;
+					}
+					
+				})
+				
+				 var params = newArr.join('');
+				return params;
+				
+			}
+			
+			var currentAfter = getCom(str);
+			console.log(currentAfter);
+			
+			
+			
+		</script>
+	</body>
+
+</html>

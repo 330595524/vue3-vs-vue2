@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html style=""><head>
+  <title>Vector Tiles • OSM Buildings</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="title" content="OSM Buildings">
+  <meta property="description" content="OSM Buildings 3D city models and viewers">
+  <meta property="keywords" content="OSM Buildings, OSMBuildings, OSM-Buildings, 3D Buildings, Extruded Buildings, Building Geometry, 3D Massing, Vector Tiles, 3D Architecture, OSM-3D, 3D, VR, Virtual Reality, DEM, DSM, Building Heights, Elevation Model, LIDAR, Point Cloud, Building, Buildings, CityGML, City model, Virtual city models, Leaflet, LeafletJS, Leaflet.js, OpenLayers, Jan Marsch, Berlin, Terrain, Map, Maps, Mapbox, MapboxGL, Cesium, CartoDB, CARTO, Mapzen, Perspective, Polygons, BIM, OSM, OpenStreetMap, JS, JavaScript, Library, WebGL, Example, Examples, Indoor, Layer, BuildingLayer, BuildingsLayer, Footprint, Coordinates, Geometry, JSON, GeoJSON, Height, Extract, node, nodeJS, node.js, PostGIS, Geo, GPS, GIS, Visualization, Latitude, Longitude, Mercator, Projection, Panning, Zooming, API">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/png" href="../../favicon.png">
+	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css" rel="stylesheet">
+	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+<div id="map" class="mapboxgl-map"><div class="mapboxgl-canary" style="visibility: hidden;"></div><div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate"><canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="1168" height="944" style="position: absolute; width: 1168px; height: 944px;"></canvas></div><div class="mapboxgl-control-container"><div class="mapboxgl-ctrl-top-left"></div><div class="mapboxgl-ctrl-top-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-group"><button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-in" type="button" title="Zoom in" aria-label="Zoom in"></button><button class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-out" type="button" title="Zoom out" aria-label="Zoom out"></button><button class="mapboxgl-ctrl-icon mapboxgl-ctrl-compass" type="button" title="Reset bearing to north" aria-label="Reset bearing to north"><span class="mapboxgl-ctrl-compass-arrow" style="transform: rotate(0deg);"></span></button></div></div><div class="mapboxgl-ctrl-bottom-left"><div class="mapboxgl-ctrl" style="display: none;"><a class="mapboxgl-ctrl-logo" target="_blank" href="https://www.mapbox.com/" aria-label="Mapbox logo" rel="noopener"></a></div></div><div class="mapboxgl-ctrl-bottom-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-attrib"><div class="mapboxgl-ctrl-attrib-inner"><a href="https://osmbuildings.org/copyright">© OSM Buildings</a> <a href="https://www.openstreetmap.org/about/">© OpenStreetMap contributors</a></div></div></div></div></div>
+
+<script>
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'https://data.osmbuildings.org/0.2/rkc8ywdl/style.json',
+    center: [13.37, 52.52],
+    zoom: 15,
+    bearing: 0,
+    pitch: 45,
+    attributionControl: true,
+    hash: true
+  });
+  map.addControl(new mapboxgl.NavigationControl());
+</script>
+
+<div id="cli_dialog_div"></div></body></html>

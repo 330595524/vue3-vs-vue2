@@ -12,7 +12,7 @@ function conquer(A, p, q, r) {
     A[k] = A1[i] < A2[j] ? A1[i++] : A2[j++];
   }
 }
-// 归并排序
+// 归并排序 等比数列的求和
 function merge_sort(A, p = 0, r) {
   r = r || A.length;
   if (r - p === 1) return;

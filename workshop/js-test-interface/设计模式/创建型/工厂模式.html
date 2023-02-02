@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工厂模式---，建造者模式</title>
+</head>
+<body>
+    <script>
+        function factoory(selector) {
+            return new factoory.fn.init(selector)
+        }
+        factoory.fn.init = function(params) {
+            
+        }
+
+
+        // 单例
+        let  Singleton = function (name) {
+            this.name = name
+        }
+        Singleton.getInstance function (name) {
+            if(this.instance){
+                return this.instance
+            }
+            return this.instance = new Singleton(name)
+        }
+
+        function class1() {
+            if (class1.instance) {
+                return class1.instance
+            } else {
+                class1.instance = this;
+            }
+            this.a =123;
+            this.b =123;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

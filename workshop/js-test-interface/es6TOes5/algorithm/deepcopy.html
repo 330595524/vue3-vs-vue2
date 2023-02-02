@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>深拷贝</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function deepCopy(src, r) {
+				var r = r || {};
+				for(var prop in src) {
+					if(typeof src[prop] === 'object') {
+						if(src[prop].constructor == 'Array') {
+							r[prop] = [];
+						} else {
+							r[prop] = {};
+						}
+						deepCopy(src[prop], r[prop])
+					} else {
+						r[prop] = src[prop];
+					}
+				}
+				return r;
+
+			}
+
+			//			function deepCopy(src, r) {
+			//				var r = r || {};
+			//				for(var prop in src) {
+			//					// console.log(prop)
+			//					if(typeof src[prop] === 'object') { // 是对象  需要深拷贝
+			//						if(src[prop].constructor === Array) {
+			//							// console.log("数组");
+			//							r[prop] = [];
+			//						} else {
+			//							// console.log("对象");
+			//							r[prop] = {};
+			//						}
+			//						deepCopy(src[prop], r[prop]);
+			//					} else { // 非对象，直接拷贝
+			//						r[prop] = src[prop];
+			//					}
+			//				}
+			//				return r;
+			//			}
+
+			var foo = {
+				name: ['1111', '3123', '999'],
+				age: {
+					nem: 'qwe',
+					ages: 11231
+				}
+			}
+
+			let obj = deepCopy(foo);
+			console.log(obj)
+
+			//使用递归的方式实现数组、对象的深拷贝
+			function deepClone1(obj) {
+				//判断拷贝的要进行深拷贝的是数组还是对象，是数组的话进行数组拷贝，对象的话进行对象拷贝
+				var objClone = Array.isArray(obj) ? [] : {};
+				//进行深拷贝的不能为空，并且是对象或者是
+				if(obj && typeof obj === "object") {
+					for(key in obj) {
+						if(obj.hasOwnProperty(key)) {
+							if(obj[key] && typeof obj[key] === "object") {
+								console.log(obj[key])
+								objClone[key] = deepClone1(obj[key]);
+							} else {
+								console.log('数组')
+								console.log(obj[key])
+								objClone[key] = obj[key];
+							}
+						}
+					}
+				}
+				return objClone;
+			}
+
+			let obj2 = deepClone1(foo);
+			console.log(obj2)
+		</script>
+	</body>
+
+</html>

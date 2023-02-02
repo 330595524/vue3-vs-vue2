@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://cdn.bootcss.com/lodash.js/4.17.12-pre/lodash.min.js"></script>
+	</head>
+
+	<body>
+		<input type="text" />
+		<script type="text/javascript">
+			window.onload = function() {
+				var arr1 = [{
+					name: '5cb03851932f047c75168944',
+					age: 12312311
+				}, {
+					name: 123123,
+					age: 1231234535
+				}];
+				var arr2 = [{
+					name: '5cb03851932f047c75168944',
+					age: 123123453
+				}, {
+					name: 12555,
+					age: 1231234535
+				}];
+				console.log(_)
+				var item = _.differenceBy(arr1, arr2, 'name');
+				console.log(item)
+			}
+
+			//			var a =1 ;
+			//			function foo(){
+			//				alert(a);
+			//				var a =2 ;
+			//			}
+			//			foo();
+			//			alert(a);
+
+			var taget = document.getElementsByTagName('input');
+			for(var i = 0; i < taget.length; i++) {
+
+				taget[i].onclick = (function(i) {
+					return function() {
+						//						alert(i);
+						taget[i].style.background = 'red';
+					}
+				})(i)
+
+			}
+		</script>
+	</body>
+
+</html>

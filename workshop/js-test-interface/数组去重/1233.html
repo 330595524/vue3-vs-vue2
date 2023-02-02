@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var jsonData= [{age:11,name:'xiaoming13'},{age:12,name:'xiaoming2'}];
+			var selectData = [{age:11,name:'xiaoming1'},{age:12,name:'xiaoming2'},{age:13,name:'xiaoming3'},]
+			
+			let arr = selectData.filter((item)=>{
+				console.log(item);	
+                let justList = jsonData.map( v=>v.age );
+                console.log(justList);
+                console.log(!justList.includes(item.age))
+                return !justList.includes(item.age);
+            })
+
+            console.dir(arr);
+		</script>
+	</body>
+</html>

@@ -121,8 +121,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbf0706f-fd0a-40ef-a8fe-f0b53c4904e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/123123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/312.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/3multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/arr-connect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/deepcopy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/algorithm/findSendMax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/arr/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/arr/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/arr/new_file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/arr/recursion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/bind2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/bind3-es6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/jsonp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/string/str1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/实现bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/1111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/1233.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/div自转.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/es6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/images/0430_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/images/健康线上线专题_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/josn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/lodash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/mapbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/osmbuilding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/双向数据绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/天猫.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/希尔排序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/快速排序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/排序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/数组flat实现.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/数组去重.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/数组去重/防抖函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/源码/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/源码/getrequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/继承/111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/继承/事件冒泡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/继承/继承.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/继承/闭包.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/继承/闭包2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/dom验证工具/code.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/dom验证工具/jq.extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/dom验证工具/状态模式.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/创建型/工厂模式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/发布订阅/Observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/发布订阅/commnon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/装饰者.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/设计模式/观察者/观察者.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/课堂/课堂1/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/课堂/课堂1/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/课堂/课堂1/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/课堂/课堂1/相同id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/js-test-interface/课堂/课堂2-js基础/浅拷贝深拷贝.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/面/js基础/对象冻结.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/面/手撕/vue3双向数据绑定.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/面/数组/插入排序.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop/面/数组/最长递增子序列.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xlm/face/手写promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xlm/现场/eventBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xlm/现场/防抖.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini-vue-cur/mini-vue" beforeDir="false" afterPath="$PROJECT_DIR$/mini-vue-cur/mini-vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mini-vue-cur/mini-vue/src/reactivity/src/ref.ts" beforeDir="false" afterPath="$PROJECT_DIR$/mini-vue-cur/mini-vue/src/reactivity/src/ref.ts" afterDir="false" />
@@ -139,8 +209,11 @@
       <change beforePath="$PROJECT_DIR$/vue-next/0628/vue3-app-demo/src/components/HelloWorld.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-next/0628/vue3-app-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-next/0628/vue3-app-demo/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-next/0628/vue3-app-demo/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vue-next/0628/vue3-app-demo/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/面/js基础/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/js基础/code.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop/面/数组/数组转树.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/数组/数组转树.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/面/js基础/防抖.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/js基础/防抖.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/面/手撕/bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/手撕/bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/面/手撕/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/手撕/new.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/面/数组/2数之和.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/数组/2数之和.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop/面/数组/归并排序.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop/面/数组/归并排序.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -154,106 +227,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/UIModel.ts">
+        <entry file="file://$PROJECT_DIR$/workshop/面/compate.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop/面/virtual-dom.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/数组去重/希尔排序.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/数组去重/天猫.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/数组去重/1233.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/实现bind.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="140" column="40" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="40" />
-              <folding>
-                <element signature="e#2071#3677#0" />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/PropertyEditor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="20" column="44" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/jsonp.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/ComponentPropEditor.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/assistline/AssistLineSVG.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-714">
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/draggable/DragNode.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/draggable/Draggable.tsx">
+        <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/render/NodeRender.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#70#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/selectable/Selectable.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="108" column="25" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/NodeSelector.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/StateMachine.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-            </state>
+            <state relative-caret-position="-216" />
           </provider>
         </entry>
       </file>
@@ -262,20 +282,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cliEngine</find>
-      <find>C</find>
-      <find>getDiffX</find>
-      <find>drag</find>
-      <find>Tree</find>
-      <find>draggable/</find>
-      <find>Draggable</find>
       <find>box</find>
       <find>getTreeData</find>
       <find>EvtNodeSyncMoving</find>
@@ -299,16 +313,25 @@
       <find>SelectionChanged</find>
       <find>children</find>
       <find>PropertyModelUpdated</find>
+      <find>防抖</find>
+      <find>debounce</find>
+      <find>recordIndexOfI</find>
+      <find>deepclone</find>
+      <find>状态</find>
+      <find>onChange</find>
+      <find>toRaw</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/skedo/skedo/packages</dir>
       <dir>$PROJECT_DIR$/skedo</dir>
-      <dir>$PROJECT_DIR$/skedo/skedo</dir>
       <dir>$PROJECT_DIR$/skedo/skedo/packages/skedo-ui</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/skedo/skedo</dir>
+      <dir>$PROJECT_DIR$/skedo/skedo/packages</dir>
+      <dir>$PROJECT_DIR$/vue-next</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/skedo/skedo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -316,13 +339,32 @@
         <option value="$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/hooks/useSubscribe.ts" />
         <option value="$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/UIModel.ts" />
         <option value="$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/NodeSelector.ts" />
+        <option value="$PROJECT_DIR$/xlm/eventBus.js" />
+        <option value="$PROJECT_DIR$/xlm/现场/eventBus.js" />
+        <option value="$PROJECT_DIR$/workshop/面/js基础/防抖.js" />
+        <option value="$PROJECT_DIR$/workshop/面/数组/最长递增子序列.ts" />
+        <option value="$PROJECT_DIR$/workshop/面/js基础/对象冻结.js" />
+        <option value="$PROJECT_DIR$/workshop/面/手撕/new.js" />
+        <option value="$PROJECT_DIR$/workshop/面/手撕/bind.js" />
+        <option value="$PROJECT_DIR$/xlm/现场/防抖.ts" />
+        <option value="$PROJECT_DIR$/workshop/面/手撕/vue3双向数据绑定.html" />
+        <option value="$PROJECT_DIR$/xlm/face/手写promise.js" />
+        <option value="$PROJECT_DIR$/workshop/面/数组/插入排序.js" />
+        <option value="$PROJECT_DIR$/workshop/面/数组/2数之和.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="363" />
+    <option name="y" value="-1157" />
+    <option name="width" value="1640" />
+    <option name="height" value="1070" />
   </component>
   <component name="ProjectId" id="1uv4cAe3BLDrH7K1rrXSo7I6K3r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -342,201 +384,57 @@
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="diff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="coursewares" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="js-test-interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="coursewares" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="js-test-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="es6TOes5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="coursewares" type="462c0819:PsiDirectoryNode" />
-              <item name="ts" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="js-test-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="数组去重" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="面" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="workshop" type="462c0819:PsiDirectoryNode" />
+              <item name="面" type="462c0819:PsiDirectoryNode" />
+              <item name="树" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xlm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-meta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-meta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-meta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-meta" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="meta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="assistline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="draggable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="render" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue3-vs-vue2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue3-vs-vue2" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="skedo" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="xlm" type="462c0819:PsiDirectoryNode" />
+              <item name="现场" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -550,19 +448,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workshop" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/ts/ts-react/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workshop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xlm/现场" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -594,17 +510,21 @@
       <workItem from="1651368501106" duration="327000" />
       <workItem from="1651796816811" duration="2196000" />
       <workItem from="1653520945895" duration="8107000" />
+      <workItem from="1674962184446" duration="3963000" />
+      <workItem from="1675119862874" duration="7918000" />
+      <workItem from="1675152242496" duration="2920000" />
+      <workItem from="1675163098460" duration="6061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10630000" />
+    <option name="totallyTimeSpent" value="31492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="363" y="-1157" width="1640" height="1070" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18529956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -690,374 +610,305 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/dsl-form/src/component/form/useForm.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/dsl-form/src/component/form/FormRender.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1729">
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/dsl-form/src/component/form/FormNode.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1553">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/dsl-form/src/component/form/form.types.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/page/Codeless.tsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/dsl-form/src/component/form/Emiter.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/CodeEditorUI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/page/CodeEditor.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="162" column="24" selection-start-line="162" selection-start-column="24" selection-end-line="162" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-code/es/FileTreeNode.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/vue3-examples/src/hooks/useForm.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-937" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/vue-skedo/src/object/DragValue.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/coursewares/src/vue-skedo/src/component/Draggable.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1084">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/ComponentList.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/node_modules/antd/lib/tree/Tree.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/PageStructure.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!block;n#dependencies#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/node_modules/@types/ramda/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="1148" column="16" selection-start-line="1148" selection-start-column="16" selection-end-line="1148" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-meta/src/standard.types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/hooks/useSubscribe.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-code/es/FileTreeNode.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-utils/es/Emiter.d.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-code/src/FileTreeNode.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/PropItem.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-meta/es/Topic.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/List.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/PropertyItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="167" column="12" lean-forward="true" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/antd-patch.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/ColorPicker.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/Flex.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/FontStyleSelector.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/Image.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-cli/src/config/dev.config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/scripts/serve.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/Selection.new.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-utils/src/Rect.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-meta/src/instance/MountPoint.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/ts-react/node_modules/typescript/lib/lib.es2015.core.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="253" column="13" selection-start-line="253" selection-start-column="13" selection-end-line="253" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/util/getFlexGap.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-request/es/standard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-meta/es/instance/Node.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-meta/es/instance/Node.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="152" column="29" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
+        <state relative-caret-position="990">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-meta/src/instance/Node.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="3212">
+          <caret line="156" column="30" selection-start-line="156" selection-start-column="30" selection-end-line="156" selection-end-column="30" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/CodeEditorUI.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/draggable/useDragNode.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="506">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/draggable/draggable.types.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-render/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/NodeSelector.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-render/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/StateMachine.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-render/src/component/RenderContext.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/draggable/DragNode.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/selectable/Selectable.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="108" column="25" selection-start-line="108" selection-start-column="15" selection-end-line="108" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/render/NodeRender.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="111" column="39" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
+        <state>
           <folding>
-            <element signature="e#0#70#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/UIModel.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-render/src/component/Modules.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="140" column="40" selection-start-line="140" selection-start-column="24" selection-end-line="140" selection-end-column="40" />
+        <state>
           <folding>
-            <element signature="e#2071#3677#0" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/object/PropertyEditor.ts">
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-render/src/component/ExternalComponent.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="854">
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/js基础/实现node-promisify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/js基础/proxy.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/js基础/基础.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/page/Preview.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/propeditor/ComponentPropEditor.tsx">
+    <entry file="file://$PROJECT_DIR$/workshop/面/手撕/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/assistline/AssistLineSVG.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
+        <state relative-caret-position="660">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skedo/skedo/packages/skedo-ui/src/components/draggable/Draggable.tsx">
+    <entry file="file://$PROJECT_DIR$/workshop/面/手撕/bind.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="880">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/js基础/防抖.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" selection-start-line="6" selection-end-line="29" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xlm/现场/防抖.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/array数据绑定.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/deep-clone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/koa-compose.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/lazyMan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="13" selection-start-line="23" selection-start-column="12" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/手撕/vue3双向数据绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/node/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/排序/归并/归并.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/数组/全排列.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-next/vue-next-master/packages/reactivity/src/ref.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-next/vue-next-master/packages/reactivity/src/reactive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="183" column="70" selection-start-line="183" selection-start-column="70" selection-end-line="183" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/手撕/promise.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/js基础/promise输出.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/promis-limit.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/promiseAll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/手写promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="33" />
+          <folding>
+            <element signature="e#1784#1995#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xlm/face/手写promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/数组/插入排序.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/数组/2数之和.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/数组/3数之和.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/树/树统计.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#13#1049#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/compate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/面/virtual-dom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/数组去重/希尔排序.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/数组去重/天猫.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/数组去重/1233.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/实现bind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/jsonp.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/123123.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workshop/js-test-interface/es6TOes5/subscribe2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216" />
       </provider>
     </entry>
   </component>

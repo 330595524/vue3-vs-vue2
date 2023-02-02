@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	<script type="text/javascript">
+		var a = [
+{
+BondKey: "010221.IB",
+BondName: "01国开21",
+amount:2000
+},
+{
+BondKey: "010221.IB",
+BondName: "01国开21",
+amount:2000
+},
+{
+BondKey: "011800642.IB",
+BondName: "18珠海港SCP002",
+amount:2000
+}
+]
+console.log(a);
+ 
+function mergeObject( array ) {
+    var arrayFilted = [];
+    array.forEach(function (value,key) {
+      //判断过滤后的数组是否为空
+      if ( arrayFilted.length == 0 ) {
+        arrayFilted.push(value);
+      }else{
+        arrayFilted.forEach( function (valueIndex,keyIndex) {
+          if (valueIndex.BondKey && valueIndex.BondKey !== value.BondKey) {
+            arrayFilted.push(value);
+          }else if (valueIndex.BondKey && valueIndex.BondKey === value.BondKey) {
+            valueIndex.amount = valueIndex.amount + value.amount;
+          }
+        });
+      }
+    });
+    return arrayFilted;
+}
+console.log(mergeObject(a));
+	</script>
+	</body>
+</html>

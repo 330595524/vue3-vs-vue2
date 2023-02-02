@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<div></div>
+<script>
+  const toProxy = new WeakMap(); //存放的是代理后的对象
+  const toRaw = new WeakMap();   //存放的是代理前的对象
+  function trigger() {
+    console.log('触发视图更新')
+  }
+  function isObject(target) {
+    return typeof target === 'object' && target !== null;
+  }
+  function reactive(target) {
+    if (!isObject(target)) {
+      return target;
+    }
+    let proxy = toProxy.get(target)
+    // 如果代理表中已经存在了  就把这个结果返回
+    if (proxy) {
+      return proxy
+    }
+    // 如果这个对象已经被代理过了  就直接返回
+    if (toRaw.has(target)) {
+      return target;
+    }
+    const handlers = {
+      set(target, key, value, receiver) {
+        if (target.hasOwnProperty(key)) {
+          trigger()
+
+        }
+        return Reflect.set(target, key, value, receiver)
+      },
+      get(target, key, receiver) {
+        console.log("执行了",key , receiver)
+        const res = Reflect.get(target, key, receiver)
+        if (isObject(target[key])) {
+          return reactive(res)
+        }
+        return res;
+      },
+      deleteProperty(target, key) {
+        return Reflect.deleteProperty(target, key)
+      }
+    }
+    let observed = new Proxy(target, handlers)
+    toProxy.set(target, observed);
+    toRaw.set(observed, target)
+    return observed
+  }
+  let obj = {
+    name: '温小鹿',
+    arr: [1, 2, 3]
+  }
+  // let p = reactive(obj)
+  // p.name = 'jw'
+  // let arr = [1, 2 ,3];
+  // let p = reactive(arr)
+  // p.push(4);
+  // console.log(p)
+
+  let p = reactive(obj)
+  p = reactive(p)
+  p = reactive(p)
+  p.arr.push(4)
+  console.log(p)
+  console.log(p.name)
+</script>
+</body>
+
+</html>

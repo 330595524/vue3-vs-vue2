@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function josephus2(n, k) {
+				var players = [];
+				for(var i = 1; i <= n; i++) { // 组成数组
+					players.push(i);
+				}
+				var flag = 0;
+				while(players.length > 1) {
+					var outNum = 0; //本次循环已出局人数，便于定位元素位置
+					var len = players.length;
+					for(var i = 0; i < len; i++) {
+						flag++;
+						if(flag == k) {
+							flag = 0;
+							console.log("出局:" + players[i - outNum] + "本次循环已出局人数：" + outNum);
+							// i循环时受数组长度影响 每从头开始时i变为0； 但flag始终是123..k  123..k 固定循环，不受数组影响  ，
+							players.splice(i - outNum, 1);
+							outNum++;
+						}
+					}
+				}
+				return players[0];
+			}
+			console.log(josephus2(100, 3));
+			
+			
+			class _LazyMan {
+  constructor (name) {
+    this.taskQueue = [];
+    this.runTimer = null;
+    this.sayHi(name);
+  }
+
+  run () {
+    if (this.runTimer) {
+      clearTimeout(this.runTimer);
+    }
+
+    this.runTimer = setTimeout(async () => {
+      for (let asyncFun of this.taskQueue) {
+        await asyncFun()
+      }
+      this.taskQueue.length = 0;
+      this.runTimer = null;
+    })
+    return this;
+  }
+
+  sayHi (name) {
+    this.taskQueue.push(async () => console.log(`Hi, this is ${name}`));
+    return this.run();
+  }
+
+  eat (food) {
+    this.taskQueue.push(async () => console.log(`Eat ${food}`));
+    return this.run();
+  }
+
+  sleep (second) {
+    this.taskQueue.push(async () => {
+      console.log(`Sleep ${second} s`)
+      return this._timeout(second)
+    });
+    return this.run();
+  }
+
+  sleepFirst (second) {
+    this.taskQueue.unshift(async () => {
+      console.log(`Sleep first ${second} s`)
+      return this._timeout(second);
+    });
+    return this.run();
+  }
+
+  async _timeout (second) {
+    await new Promise(resolve => {
+      setTimeout(resolve, second * 1e3);
+    })
+  }
+}
+
+// 测试
+var LazyMan = name => new _LazyMan(name)// lazyMan('Hank');
+LazyMan('Hank').sleep(10).eat('dinner');
+// lazyMan('Hank').eat('dinner').eat('supper');
+// lazyMan('Hank').sleepFirst(5).eat('supper');
+		</script>
+	</body>
+
+</html>

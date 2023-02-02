@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			Function.prototype.bind2 = function(contxt) {
+				var self = this,
+					arg = Array.prototype.slice.call(arguments, 1);
+					console.log(arg)
+				var boundFn = function() {
+					var boundArg = Array.prototype.slice.call(arguments);
+					var totalArg = arg.concat(boundArg);
+					self.apply(this instanceof self ? this : contxt, totalArg)
+				}
+
+				boundFn.prototype = this.prototype;
+console.log(boundFn.prototype);
+				return boundFn
+
+			}
+			var foo= {
+				name: 'xiaoming'
+			}
+			function  Anmil() {
+				console.log(this.name)
+			}
+			var an = Anmil.bind2(foo);
+			console.log('11111',an.prototype)
+			console.log(an())
+			
+			//最终版
+			Function.prototype.bind3 = function(contxt) {
+				var self = this,
+					arg = Array.prototype.slice.call(arguments, 1),
+					fNOP = function () {};
+					console.log(arg)
+				var boundFn = function() {
+					var boundArg = Array.prototype.slice.call(arguments);
+					var totalArg = arg.concat(boundArg);
+					self.apply(this instanceof self ? this : contxt, totalArg)
+				}
+				console.log(boundFn.prototype);
+				console.log(fNOP.prototype );
+				
+//				fNOP.prototype = this.prototype;
+//				boundFn.prototype = new fNOP();
+				//方案1的直接赋值会修改this.prototype,所以要隔离要么用空函数转接，要么通过create
+				boundFn.prototype = Object.create(this.prototype);
+				console.log(boundFn.prototype);
+
+				return boundFn
+
+			}
+			var foo2= {
+				name: 'xiaoming2'
+			}
+			function  Anmil2() {
+				console.log(this.name)
+			}
+			var an2 = Anmil2.bind3(foo2);
+			console.log('22222',an2.prototype)
+			console.log(an2())
+		</script>
+	</body>
+
+</html>

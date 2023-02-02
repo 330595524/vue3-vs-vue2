@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			//			1.返回一个函数
+			//			2.	可以传入参数
+var value = 2;
+			var foo = {
+				name: 'xiaohong'
+			}
+
+			function Animal(name,age) {
+				this.maril = 'haha';
+				console.log(this.value);
+				 console.log(name);
+    				console.log(age);
+			}
+			var an = Animal.bind(foo);
+			an();
+
+			//1、最简单的bind
+//			Function.prototype.bundFn=function (context) {
+//				var self = this;
+//				return function() {
+//					self.apply(context)
+//				}
+//
+//			}
+//			var bund = Animal.bundFn(foo);
+//			console.log(bund())
+			
+			//2 bind方法 传递参数
+			Function.prototype.bundFn=function (context) {
+				var args = Array.prototype.slice.call(arguments,1);
+				console.log(args)
+				var self = this;
+				return function() {
+					var bindArgs = Array.prototype.slice.call(arguments);
+					console.log(bindArgs)	
+					var totalArg = args.concat(bindArgs);
+				console.log(totalArg)	
+					self.apply(context,totalArg);
+				}
+
+			}
+			var bund = Animal.bundFn(foo,'123');
+			console.log(bund('haha','cxx','ghgg'))
+			console.log('===================================')
+
+
+var foo = {
+    value: 1
+};
+
+function bar(name, age) {
+    this.habit = 'shopping';
+    console.log(this.value);
+    console.log(name);
+    console.log(age);
+}
+
+bar.prototype.friend = 'kevin';
+
+var bindFoo = bar.bind(foo, 'daisy');
+
+var obj = new bindFoo('18');
+// undefined
+// daisy
+// 18
+console.log(obj.habit);
+console.log(obj.friend);
+	
+			console.log('===================================')		
+		//第三版
+		Function.prototype.bundFn=function (context) {
+				var args = Array.prototype.slice.call(arguments,1);
+				var self = this;
+				var resultbund = function () {
+					var bindArgs = Array.prototype.slice.call(arguments);
+					console.log(bindArgs)	
+					var totalArg = args.concat(bindArgs);
+					console.log(totalArg)	
+					  // 当作为普通函数时，this 指向 window，self 指向绑定函数，此时结果为 false，当结果为 false 的时候，this 指向绑定的 context
+					self.apply(this instanceof self ? this: context,totalArg);
+				}
+				resultbund.prototype = context.prototype;
+				
+				return resultbund
+
+			}
+			var bund3 = Animal.bundFn(foo,'123');
+			
+			var obj2 = new bund3('18');
+			console.log(bund('haha666','cxx','ghgg'))
+			console.log('===================================')
+			
+			
+			Function.prototype.bind2 = function (context) {
+
+			    if (typeof this !== "function") {
+			      throw new Error("Function.prototype.bind - what is trying to be bound is not callable");
+			    }
+			
+			    var self = this;
+			    var args = Array.prototype.slice.call(arguments, 1);
+			    var fNOP = function () {};
+			
+			    var fbound = function () {
+			        self.apply(this instanceof self ? this : context, args.concat(Array.prototype.slice.call(arguments)));
+			    }
+			
+			    fNOP.prototype = this.prototype;
+			    fbound.prototype = new fNOP();
+			
+			    return fbound;
+			
+			}
+			
+			var bund4 = Animal.bind2(foo,'123');
+			var obj2 = new bund4('18');
+			console.log(bund('haha666','cxx','ghgg'))
+			console.log(obj2)
+			
+		</script>
+	</body>
+
+</html>
